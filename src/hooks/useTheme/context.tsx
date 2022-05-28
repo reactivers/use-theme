@@ -1,6 +1,6 @@
 import { createContext, ReactNode, useCallback, useContext, useEffect, useRef, useState } from "react";
-import { isBrowser } from "../../utils/functions"
-declare type Themes = "light" | "dark";
+import { isBrowser } from "../../utils/functions";
+export declare type Themes = "light" | "dark";
 
 interface ThemeContextProps<T> {
     theme: T;
@@ -8,7 +8,7 @@ interface ThemeContextProps<T> {
     setCurrentTheme: (current: Themes | "system") => void;
 }
 
-interface ThemeStyle<T> {
+export interface ThemeStyle<T> {
     light: T
     dark: T
 }
