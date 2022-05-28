@@ -1,7 +1,7 @@
 {
   "name": "@reactivers/use-theme",
   "description": "Custom Light/Dark mode Theme manager in React with hook and provider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "hooks",
     "react",
